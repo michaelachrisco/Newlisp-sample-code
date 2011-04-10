@@ -30,7 +30,7 @@
 
 (while (gs:check-event 10000)
 ;;(set 'file (open "localhost" "read"));;communication with CSCI144_lab1_mod.cpp
-(define str (get-url "http://macbookpro/~wendybegley/communication.txt"));;let the mac server do the communication work and leave the rest to newlisp
+(define str (get-url "http://foo/foo/communication.txt"));;let the mac server do the communication work and leave the rest to newlisp
 	(sleep 2000)
 (if str
 	(gs:set-text 'Time2 str)))
